@@ -303,3 +303,21 @@ font-size:24px;
 }
 
 }
+html{
+scroll-behavior:smooth;
+}
+
+.project:hover{
+transform:translateY(-10px);
+box-shadow:0 20px 30px rgba(0,0,0,.2);
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 20px 30px rgba(0,0,0,.2);
+}
+
+.btn:hover,
+.btn2:hover{
+transform:scale(1.05);
+}
